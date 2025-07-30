@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>I'm Sorry</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background: radial-gradient(circle, #54498c 0%, #180c5e 100%);
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .top-row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 60px;
+            background: #c9e9f6;
+            z-index: 100;
+        }
+        .home-tab {
+            color: #54498c;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 12px 32px;
+            border: none;
+            background: none;
+            transition: color 0.2s, text-decoration 0.2s;
+        }
+        .home-tab:hover {
+            color: #180c5e;
+            text-decoration: underline;
+        }
+        .content {
+            margin-top: 80px; /* space for the top row */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .textbutton {
+            padding: 16px 40px;
+            border: 2px solid #180c5e;
+            background: #c9e9f6;
+            color: #54498c;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+        }
+        .textbutton:hover {
+            background: #180c5e;
+            color: #c9e9f6;
+            border-color: #180c5e;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-row">
+        <button class="home-tab" onclick="window.location.href='../home.html'">home</button>
+    </div>
+    <div class="content">
+        <button class="textbutton" onclick="window.location.href='t2.html'">For the longest time, and for many times I’ve said it, I wanna say thank you for everything. I know I’ve said it a million times, but I will say it again and again. Thank you for being a part of my life. Thank you for helping me see a different side of me, a side that I didn’t know that I had in me. Thank you for being there for me, for accompanying me, for staying with me. Thank you for making me happy, for making me smile, for making me feel like I belong. </button>
+</body>
+</html>

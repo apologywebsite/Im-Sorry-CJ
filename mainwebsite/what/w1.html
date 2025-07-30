@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>I'm Sorry</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background: radial-gradient(circle, #54498c 0%, #180c5e 100%);
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .top-row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 60px;
+            background: #c9e9f6;
+            z-index: 100;
+        }
+        .home-tab {
+            color: #54498c;
+            font-size: 1.3rem;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 12px 32px;
+            border: none;
+            background: none;
+            transition: color 0.2s, text-decoration 0.2s;
+        }
+        .home-tab:hover {
+            color: #180c5e;
+            text-decoration: underline;
+        }
+        .content {
+            margin-top: 80px; /* space for the top row */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .textbutton {
+            padding: 16px 40px;
+            border: 2px solid #180c5e;
+            background: #c9e9f6;
+            color: #54498c;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+        }
+        .textbutton:hover {
+            background: #180c5e;
+            color: #c9e9f6;
+            border-color: #180c5e;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-row">
+        <button class="home-tab" onclick="window.location.href='../home.html'">home</button>
+    </div>
+    <div class="content">
+        <button class="textbutton" onclick="window.location.href='w2.html'">If I’m gonna be honest, my life the past few months have been quite… of a fluctuation between depression and slight happiness. I’ve been trying to find a purpose in my life, or a sense of why I should stay and remain in this world. I’ve been trying to find myself, yet until now I still made no progress. Maybe I did and I just end up discrediting myself again, which would make more sense now that I think about it. I’ve helped a lot of people these past few months and all were glad and thankful that I did help them, yet somehow I still think that I didn’t do anything. </button>
+</body>
+</html>
